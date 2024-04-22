@@ -18,7 +18,7 @@ Choose a storage system appropriate for your needs and connect it with Singulari
 
 ### 2a. Add a local file system
 
-The most command storage system is the local file system. To add a folder as a source storage to singularity:
+The most common storage system is the local file system. To add a folder as a source storage to singularity:
 
 ```sh
 singularity storage create local --name "my-source" --path "/mnt/dataset/folder"
